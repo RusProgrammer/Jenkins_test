@@ -8,6 +8,9 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/D:/Jenkins_test/helloworld/main.cpp</file>
+            <file>file:/D:/Jenkins_test/helloworld/tests/newtestclass1.cpp</file>
+            <file>file:/D:/Jenkins_test/helloworld/Helloer.h</file>
+            <file>file:/D:/Jenkins_test/helloworld/Helloer.cpp</file>
         </group>
     </open-files>
 </project-private>
