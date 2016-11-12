@@ -24,6 +24,8 @@
 #include <cppunit/TestFailure.h>
 #include <cppunit/portability/Stream.h>
 
+
+
 class ProgressListener : public CPPUNIT_NS::TestListener {
 public:
 
@@ -84,6 +86,7 @@ int main() {
     // Print test in a compiler compatible format.
     CPPUNIT_NS::CompilerOutputter outputter(&result, CPPUNIT_NS::stdCOut());
     outputter.write();
+    
 
     return result.wasSuccessful() ? 0 : 1;
 }
