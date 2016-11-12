@@ -90,7 +90,7 @@ int main() {
     CPPUNIT_NS::CompilerOutputter outputter(&result, CPPUNIT_NS::stdCOut());
     outputter.write();
     
-    std::ofstream xmlFileOut("..\\cpptestresults.xml");
+    std::ofstream xmlFileOut("cpptestresults.xml");
     CPPUNIT_NS::XmlOutputter  xmlOut(&result, xmlFileOut);
     xmlOut.write();
     
