@@ -37,3 +37,11 @@ void HelloerTest::testMessage() {
     }
 }
 
+void HelloerTest::testMessageNobody() {
+    Helloer helloer;
+    string result = helloer.message();
+    if (true /*check result*/) {
+        CPPUNIT_ASSERT(result == "");
+    }
+}
+
