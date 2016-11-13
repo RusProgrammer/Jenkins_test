@@ -30,10 +30,10 @@ void HelloerTest::tearDown() {
 }
 
 void HelloerTest::testMessage() {
-    Helloer helloer;
+    Helloer helloer("world");
     string result = helloer.message();
     if (true /*check result*/) {
-        CPPUNIT_ASSERT(result == "Hello Netbeans");
+        CPPUNIT_ASSERT(result == "Hello world");
     }
 }
 
