@@ -9,6 +9,8 @@
  * Author: fedosov
  *
  * Created on 12 ноября 2016 г., 13:44
+ * modify history
+ * 13.11.2016 - added this comment to check jenkins rerun
  */
 
 #include <cstdlib>
